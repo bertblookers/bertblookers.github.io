@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- SPDX-License-Identifier: AGPL-3.0-only -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Urania’s Mirror — daily puzzles about the sky</title>
+<meta name="description" content="Daily puzzles about the sky: Muldle, and more on the way.">
+<link rel="stylesheet" href="shared.css?v=15505ddb5c">
+<link rel="stylesheet" href="hub.css?v=15505ddb5c">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+<header class="hub-head">
+  <h1>URANIA’S MIRROR</h1>
+  <p class="tagline">Daily puzzles about the sky.</p>
+</header>
+
+<main class="cards">
+  <!-- A playable game is a link. Class "wip" marks a game in the works with a
+       WIP badge: a link once it can be tried (Retractle), a plain card
+       while there's nothing to play yet (Constelle). -->
+  <a class="card" href="muldle/">
+    <svg class="card-icon" viewBox="0 0 64 64" aria-hidden="true">
+      <rect x="4" y="22" width="16" height="16" rx="2" fill="#4c9a4c"/>
+      <rect x="24" y="22" width="16" height="16" rx="2" fill="#b8a038"/>
+      <rect x="44" y="22" width="16" height="16" rx="2" fill="#3a3f52"/>
+      <path d="M32 4l2.6 6.4 6.9.5-5.3 4.4 1.7 6.7L32 18.3l-5.9 3.7 1.7-6.7-5.3-4.4 6.9-.5z" fill="#e8eaf2"/>
+      <rect x="4" y="44" width="16" height="16" rx="2" fill="none" stroke="#6b7194" stroke-width="2"/>
+      <rect x="24" y="44" width="16" height="16" rx="2" fill="none" stroke="#6b7194" stroke-width="2"/>
+      <rect x="44" y="44" width="16" height="16" rx="2" fill="none" stroke="#6b7194" stroke-width="2"/>
+    </svg>
+    <h2>Muldle</h2>
+    <p>Find the astronomical object name or identifier: a Wordle for
+      deep-sky catalogues, constellations and stars.</p>
+    <p class="card-status">Play daily</p>
+  </a>
+
+  <a class="card wip" href="retractle/">
+    <span class="badge">WIP</span>
+    <svg class="card-icon" viewBox="0 0 64 64" aria-hidden="true">
+      <path d="M14 4h26l10 10v46H14z" fill="#f6f3ea"/>
+      <path d="M40 4v10h10" fill="#d8d2c2"/>
+      <rect x="19" y="20" width="26" height="4" fill="#18181b"/>
+      <rect x="19" y="29" width="12" height="3" fill="#18181b"/><rect x="33" y="29" width="12" height="3" fill="#7a7466"/>
+      <rect x="19" y="36" width="20" height="3" fill="#18181b"/>
+      <rect x="19" y="43" width="8" height="3" fill="#7a7466"/><rect x="29" y="43" width="16" height="3" fill="#18181b"/>
+      <rect x="19" y="50" width="22" height="3" fill="#18181b"/>
+    </svg>
+    <h2>Retractle</h2>
+    <p>A paper has been accidentally retracted! Repair the damaged astronomy
+      paper word by word and restore it to the archive.</p>
+    <p class="card-status">Try the work in progress</p>
+  </a>
+
+  <div class="card wip" aria-disabled="true">
+    <span class="badge">WIP</span>
+    <svg class="card-icon" viewBox="0 0 64 64" aria-hidden="true">
+      <circle cx="32" cy="32" r="26" fill="none" stroke="#7ea6e0" stroke-width="2.5"/>
+      <path d="M32 10l5 22-5 22-5-22z" fill="#e8eaf2"/>
+      <path d="M32 10l5 22h-10z" fill="#b8322a"/>
+      <circle cx="16" cy="20" r="1.6" fill="#e8eaf2"/><circle cx="47" cy="18" r="1.4" fill="#e8eaf2"/>
+      <circle cx="49" cy="44" r="1.6" fill="#e8eaf2"/><circle cx="15" cy="46" r="1.2" fill="#e8eaf2"/>
+      <path d="M16 20L47 18M49 44L15 46" stroke="#7ea6e0" stroke-width="0.8" opacity="0.6"/>
+    </svg>
+    <h2>Constelle</h2>
+    <p>Find the constellations: name the one that's shown, or point to the
+      one that's named.</p>
+    <p class="card-status">In the works</p>
+  </div>
+</main>
+
+<footer class="foot">
+  No accounts and no tracking: your games stay in your own browser. ·
+  <a href="https://github.com/bertblookers/bertblookers.github.io" target="_blank" rel="noopener">Source</a> (AGPL-3.0)
+</footer>
+
+</body>
+</html>

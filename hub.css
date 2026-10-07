@@ -1,0 +1,65 @@
+/* SPDX-License-Identifier: AGPL-3.0-only */
+/* The hub's own look, after shared.css. */
+
+.hub-head {
+  padding: 3rem 1rem 1.5rem;
+  text-align: center;
+}
+.hub-head h1 {
+  font-size: 2.2rem;
+  letter-spacing: 0.14em;
+}
+.tagline {
+  color: var(--dim);
+  margin-top: 0.4rem;
+}
+
+.cards {
+  width: 100%;
+  max-width: 62rem;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.4rem 1.3rem 1.1rem;
+  border-radius: 10px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  line-height: 1.45;
+}
+a.card { transition: border-color 0.15s, transform 0.15s; }
+a.card:hover, a.card:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.card-icon { width: 3.2rem; height: 3.2rem; }
+.card h2 { font-size: 1.3rem; letter-spacing: 0.04em; }
+.card p { font-size: 0.95rem; color: var(--dim); }
+.card-status { margin-top: auto; font-weight: 600; color: var(--accent) !important; }
+
+/* a game in the works: a WIP badge; dimmed further while there's nothing
+   to play yet (no link) */
+div.card.wip { opacity: 0.7; cursor: default; }
+div.card.wip .card-status { color: var(--dim) !important; font-weight: normal; }
+.badge {
+  position: absolute;
+  top: 0.9rem;
+  right: 0.9rem;
+  padding: 0.05rem 0.5rem;
+  border: 1px solid var(--warn);
+  border-radius: 4px;
+  color: var(--warn);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
