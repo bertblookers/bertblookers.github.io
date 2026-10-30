@@ -11,7 +11,7 @@ repository:
   Source: [bertblookers/muldle](https://github.com/bertblookers/muldle).
 - **[Retractle](https://bertblookers.github.io/retractle/)** —
   *work in progress.* A paper has been accidentally retracted! Restore a
-  famous astronomy paper word by word.
+  well-known astronomy arXiv paper word by word.
   Source: [bertblookers/retractle](https://github.com/bertblookers/retractle).
 - **Constelle** — *in the works:* find the constellations.
 

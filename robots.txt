@@ -1,4 +1,4 @@
-# The whole origin (the hub and every game beside it) may be crawled.
+# The whole origin (every page on this site) may be crawled.
 User-agent: *
 Allow: /
 
