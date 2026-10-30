@@ -1,0 +1,5 @@
+# The whole origin (the hub and every game beside it) may be crawled.
+User-agent: *
+Allow: /
+
+Sitemap: https://bertblookers.github.io/sitemap.xml

@@ -23,7 +23,9 @@ This repository holds the hub page, and `shared.css`: the look (palette,
 star field, footer) the hub shares with the games built for it. Such a game
 copies `shared.css` into its own repository when it is released, so no game
 loads files from another. Muldle, which came first, has its own stylesheet
-with the same palette.
+with the same palette. Being the site's root, it also holds the files
+search engines read there: `robots.txt`, `sitemap.xml` and Google Search
+Console's verification file.
 
 ## Privacy
 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The origin's pages: the hub and each live game (a game joins when it goes live). -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://bertblookers.github.io/</loc></url>
+  <url><loc>https://bertblookers.github.io/muldle/</loc></url>
+  <url><loc>https://bertblookers.github.io/retractle/</loc></url>
+</urlset>
